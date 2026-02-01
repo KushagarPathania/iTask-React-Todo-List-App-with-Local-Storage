@@ -6,5 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),
+    
   ],
+  base: '/iTask-React-Todo-List-App-with-Local-Storage/',
 })
